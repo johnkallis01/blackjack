@@ -105,7 +105,8 @@ function deal(){ //deal cards and store hidden dealer card;
                 showDealerCard();
                 endHand();
                 dealerScore=checkScore(dealer);
-            }else document.getElementById('text').innerText="Nobody's home.";            
+            }else if(dealer.children[1].value.strength===10 || 
+                dealer.children[1].value.value==='A')document.getElementById('text').innerText="Nobody's home.";            
         }
         document.getElementById('text').innerText+="\nYou have "+playerScore;      
     }
