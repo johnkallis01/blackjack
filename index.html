@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">  
+    <title>BlackJack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="blackjack.js" type="module"></script>
+</head>
+<body>
+    <div class="game">
+        <header class="header">
+            <span class="title">BlackJack</span>
+            <span class="sub-title">Dealer must hit on a soft 17. No Insurance.</span>
+            <span class="sub-title">5 Decks. No Insurance. </span>
+        </header>
+        <div class="player dealer" id="dealer">
+            <div class="card empty"></div>
+        </div>
+        <div class="game-info" id="info"><span id="text"></span></div>
+        <div class="player" id="player">
+            <div class="card empty"></div>
+        </div>
+        <div class="actions" id="actions"> 
+            <button class="btn" id="hit">Hit</button>
+            <button class="btn" id="stay">Stay</button>
+            <button class="btn" id="double">Double</button>
+            <button class="btn" id="split">Split</button>
+            <button class="bet" id="bet"></button>
+        </div>
+        <div class="footer">
+            <button class="btn" id="deal">deal</button>
+            <div class="chips" id="chips"></div>
+        </div>
+    </div>
+</body>
+</html>
