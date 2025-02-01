@@ -92,7 +92,8 @@ function deal(){ //deal cards and store hidden dealer card;
     dealer.appendChild(deck.dealCard().getHTML());
     
     hiddenCard = new Card(dealerCard.suit,dealerCard.value );
-    
+    console.log(dealer.children[0])
+    console.log(dealer.children[1])
     playerScore=checkScore(player);
     if(playerScore===21){
         chips+=1.5*bet;
