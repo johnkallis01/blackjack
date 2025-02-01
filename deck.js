@@ -11,9 +11,9 @@ export class Deck {
         }
     }
     dealCard(){
-        // if(this.cards.length < 20) this.cards=freshDeck(3);
-        // return this.cards.pop();
-        return deck.pop();
+        if(this.cards.length < 20) this.cards=freshDeck(3);
+        return this.cards.pop();
+        // return deck.pop();
     }
 }
 export class Card {
