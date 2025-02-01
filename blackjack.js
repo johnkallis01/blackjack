@@ -100,8 +100,8 @@ function deal(){ //deal cards and store hidden dealer card;
         showDealerCard();
         endHand();
     }else{ 
-        if(dealer.children[1].value.strength===10||dealer.children[1].value.value==='A'){
-            if(hiddenCard.value==='A' || hiddenCard.strength===10){
+        if( (dealer.children[1].value.strength===10 && hiddenCard.value==='A') ||
+            (dealer.children[1].value.value==='A' && hiddenCard.strength===10)){  
                 showDealerCard();
                 endHand();
                 dealerScore=checkScore(dealer);
@@ -109,7 +109,6 @@ function deal(){ //deal cards and store hidden dealer card;
         }
         document.getElementById('text').innerText+="\nYou have "+playerScore;      
     }
- }
 }
 function winLoseDraw(playerScore, dealerScore, num){
     let handText=document.getElementById('hand-text-'+num).innerText;
