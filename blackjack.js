@@ -157,7 +157,7 @@ function endHand(){
                 centerText.innerText+="Dealer Busts!";
             }else if(dealerScore > handScore1 && dealerScore > handScore2){ // you lose both
                 chips-=bet;
-                document.getElementById('split-chips').remove();
+                document.getElementById('split-bet')?.remove();
                 centerText.innerText+="\n Dealer wins both";
 
             }else if(dealerScore > handScore1 || dealerScore > handScore2){ // you lose one
@@ -254,7 +254,7 @@ function hit(thePlayer){
     if(playerScore>21) { //bust
         if(isSplit){ //hand 1 bust
             isSplit=false;
-            document.getElementById('split-chips')?.remove();
+            document.getElementById('split-bet')?.remove();
             document.getElementById('hit').removeEventListener('click', hitSplit1);
             let handScore2=checkScore(splitHand2);
             if(handScore2===21){
