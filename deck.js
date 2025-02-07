@@ -76,19 +76,19 @@ function getStrength(value){
 //     new Card('♥', 'K'),new Card('♥', '2'),new Card('♥', '2'),new Card('♥', '2'),
 //  ]
 //  split black jack 2
- var deck =[
-    new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
-    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-    new Card('♥', 'K'),new Card('♥', '7'),new Card('♥', 'K'),new Card('♥', '2'),
-    new Card('♥', 'K'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
- ]
-//  //split blackjack 1
 //  var deck =[
 //     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
 //     new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-//     new Card('♥', 'J'),new Card('♥', '7'),new Card('♥', '2'),new Card('♥', 'K'),
-//     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
+//     new Card('♥', 'K'),new Card('♥', '7'),new Card('♥', 'K'),new Card('♥', '2'),
+//     new Card('♥', 'K'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
 //  ]
+//  //split blackjack 1
+ var deck =[
+    new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
+    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
+    new Card('♥', 'J'),new Card('♥', '7'),new Card('♥', '2'),new Card('♥', 'K'),
+    new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
+ ]
  //split blackjack both
 //  var deck =[
 //     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
