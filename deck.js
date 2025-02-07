@@ -67,21 +67,21 @@ function getStrength(value){
     return strength;
 }
 // //split
- var deck =[
-    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-    new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
-    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-    new Card('♥', '6'),new Card('♥', '7'),new Card('♥', '5'),new Card('♥', '8'),
-    new Card('♥', 'K'),new Card('♥', '2'),new Card('♥', '2'),new Card('♥', '2'),
- ]
-//  split black jack 2
 //  var deck =[
+//     new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
+//     new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
 //     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
 //     new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-//     new Card('♥', 'K'),new Card('♥', '7'),new Card('♥', 'K'),new Card('♥', '2'),
-//     new Card('♥', 'K'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
+//     new Card('♥', '6'),new Card('♥', '7'),new Card('♥', '5'),new Card('♥', '8'),
+//     new Card('♥', 'K'),new Card('♥', '2'),new Card('♥', '2'),new Card('♥', '2'),
 //  ]
+//  split black jack 2
+ var deck =[
+    new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
+    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
+    new Card('♥', 'K'),new Card('♥', '7'),new Card('♥', 'K'),new Card('♥', '2'),
+    new Card('♥', 'K'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
+ ]
 //  //split blackjack 1
 //  var deck =[
 //     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
