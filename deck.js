@@ -11,9 +11,9 @@ export class Deck {
         }
     }
     dealCard(){
-        // if(this.cards.length < 20) this.cards=freshDeck(3);
-        // return this.cards.pop();
-        return deck.pop();
+        if(this.cards.length < 20) this.cards=freshDeck(3);
+        return this.cards.pop();
+        // return deck.pop();
     }
 }
 export class Card {
@@ -90,9 +90,9 @@ function getStrength(value){
 //     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
 //  ]
  //split blackjack both
- var deck =[
-    new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
-    new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
-    new Card('♥', 'K'),new Card('♥', '7'),new Card('♥', 'K'),new Card('♥', 'K'),
-    new Card('♥', 'K'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
- ]
+//  var deck =[
+//     new Card('♥', 'Q'),new Card('♥', 'A'),new Card('♥', '5'),
+//     new Card('♥', 'J'),new Card('♥', '9'),new Card('♥', '8'),
+//     new Card('♥', 'K'),new Card('♥', '7'),new Card('♥', 'K'),new Card('♥', 'K'),
+//     new Card('♥', 'K'),new Card('♥', 'A'),new Card('♥', '2'),new Card('♥', 'A'),
+//  ]
